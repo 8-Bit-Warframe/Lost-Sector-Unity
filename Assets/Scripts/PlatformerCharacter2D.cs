@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace LostSector
+namespace UnitySampleAssets._2D
 {
 
     public class PlatformerCharacter2D : MonoBehaviour
@@ -8,8 +8,7 @@ namespace LostSector
         private bool facingRight = true; // For determining which way the player is currently facing.
 
         [SerializeField] private float maxSpeed = 10f; // The fastest the player can travel in the x axis.
-        [SerializeField] private float jumpForce = 400f; // Amount of force added when the player jumps.
-		[SerializeField] private float dblJumpForce = 400f; // Amount of force added when the player jumps in mid air.
+        [SerializeField] private float jumpForce = 400f; // Amount of force added when the player jumps.	
 
         [Range(0, 1)] [SerializeField] private float crouchSpeed = .36f;
                                                      // Amount of maxSpeed applied to crouching movement. 1 = 100%
@@ -23,12 +22,10 @@ namespace LostSector
         private Transform ceilingCheck; // A position marking where to check for ceilings
         private float ceilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
         private Animator anim; // Reference to the player's animator component.
-		
-		private bool dblJump = false; // Whether or not the player can jump in the air.
+
+		Transform playerGraphics; // Reference to the graphics.
 
 		private Rigidbody2D myRigidBody; // Because Unity 5 has a problem if it's not done this way.
-
-		private Transform playerGraphics; // Reference to the graphics so we can change direction.
 
 
         private void Awake()
@@ -94,21 +91,13 @@ namespace LostSector
                     Flip();
             }
             // If the player should jump...
-			if (grounded && jump && anim.GetBool("Ground"))
+            if (grounded && jump && anim.GetBool("Ground"))
             {
                 // Add a vertical force to the player.
                 grounded = false;
-				dblJump = true;
                 anim.SetBool("Ground", false);
 				myRigidBody.AddForce(new Vector2(0f, jumpForce));
             }
-			// If the player should double jump...
-			if (!grounded && dblJump && jump)
-			{
-				// Add a vertical force to the player.
-				dblJump = false;
-				myRigidBody.AddForce(new Vector2(0f, dblJumpForce));
-			}
         }
 
 
@@ -118,9 +107,9 @@ namespace LostSector
             facingRight = !facingRight;
 
             // Multiply the player's x local scale by -1.
-            Vector3 theScale = playerGraphics.localScale;
+			Vector3 theScale = playerGraphics.localScale;
             theScale.x *= -1;
-            playerGraphics.localScale = theScale;
+			playerGraphics.localScale = theScale;
         }
     }
 }

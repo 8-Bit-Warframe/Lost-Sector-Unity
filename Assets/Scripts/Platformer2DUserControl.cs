@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace LostSector
+namespace UnitySampleAssets._2D
 {
 
     [RequireComponent(typeof (PlatformerCharacter2D))]
