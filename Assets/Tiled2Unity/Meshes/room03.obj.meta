@@ -1,18 +1,24 @@
 fileFormatVersion: 2
-guid: d68a38c7a10ccda4698a9c468388ce11
-timeCreated: 1433902015
+guid: b2f1aa90db929be4298d9758c3445526
+timeCreated: 1434685976
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: mesh_[00]_[00]
-    100002: //RootNode
+    100002: mesh_[01]_[00]
+    100004: //RootNode
     400000: mesh_[00]_[00]
-    400002: //RootNode
+    400002: mesh_[01]_[00]
+    400004: //RootNode
     2300000: mesh_[00]_[00]
+    2300002: mesh_[01]_[00]
     3300000: mesh_[00]_[00]
+    3300002: mesh_[01]_[00]
     4300000: mesh_[00]_[00]
+    4300002: mesh_[01]_[00]
     11400000: mesh_[00]_[00]
+    11400002: mesh_[01]_[00]
   materials:
     importMaterials: 0
     materialName: 0

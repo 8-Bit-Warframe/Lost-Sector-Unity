@@ -9,6 +9,8 @@ public class GameMaster : MonoBehaviour {
 		if (gm == null) {
 			gm = GameObject.FindGameObjectWithTag ("GM").GetComponent<GameMaster>();
 		}
+		UnityEngine.Object r01 = Resources.Load ("room01");
+		GameObject.Instantiate (r01);
 	}
 
 	public Transform playerPrefab;

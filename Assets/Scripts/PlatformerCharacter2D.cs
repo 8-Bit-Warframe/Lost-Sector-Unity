@@ -17,7 +17,7 @@ namespace UnitySampleAssets._2D
         [SerializeField] private LayerMask whatIsGround; // A mask determining what is ground to the character
 
         private Transform groundCheck; // A position marking where to check if the player is grounded.
-        private float groundedRadius = .2f; // Radius of the overlap circle to determine if grounded
+        private float groundedRadius = .05f; // Radius of the overlap circle to determine if grounded
         private bool grounded = false; // Whether or not the player is grounded.
         private Transform ceilingCheck; // A position marking where to check for ceilings
         private float ceilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
@@ -96,7 +96,7 @@ namespace UnitySampleAssets._2D
                 // Add a vertical force to the player.
                 grounded = false;
                 anim.SetBool("Ground", false);
-				myRigidBody.AddForce(new Vector2(0f, jumpForce));
+				myRigidBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Force);
             }
         }
 
