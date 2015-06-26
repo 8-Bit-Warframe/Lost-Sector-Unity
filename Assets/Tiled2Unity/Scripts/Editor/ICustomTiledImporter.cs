@@ -20,7 +20,7 @@ namespace Tiled2Unity
 }
 
 // Examples
-/*
+
 [Tiled2Unity.CustomTiledImporter]
 class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
 {
@@ -28,10 +28,10 @@ class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
         IDictionary<string, string> props)
     {
         // Simply add a component to our GameObject
-        if (props.ContainsKey("AddComp"))
+        if (props.ContainsKey("connectorType"))
         {
-            gameObject.AddComponent(props["AddComp"]);
-        }
+			UnityEngineInternal.APIUpdaterRuntimeServices.AddComponent(gameObject, "Assets/Tiled2Unity/Scripts/Editor/ICustomTiledImporter.cs (33,13)", props["connectorType"]);
+		}
     }
 
 
@@ -40,4 +40,4 @@ class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
         // Do nothing
     }
 }
-*/
+
