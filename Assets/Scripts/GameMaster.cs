@@ -6,7 +6,6 @@ public class GameMaster : MonoBehaviour {
 
 	public static GameMaster gm;
 	private const float MAP_SCALE = 0.01f;
-	private System.Random randomGenerator = new System.Random ();
 
 	public void Start () {
 		if (gm == null) {
@@ -41,12 +40,11 @@ public class GameMaster : MonoBehaviour {
 		GameObject lastRoom = null;
 		TiledMap lastTiledRoom = null;
 		for(int i = 0; i < 10; i++) {
-			int randIndex = randomGenerator.Next(0,rooms.Length);
+			int randIndex = Random.Range(0, rooms.Length);
 			if(lastRoom != null && lastTiledRoom != null)
-				Instantiate (rooms[randIndex], new Vector3(lastRoom.transform.position.x + (lastTiledRoom.MapWidthInPixels * MAP_SCALE), 0, 0), Quaternion.identity);
+				lastRoom = Instantiate (rooms[randIndex], new Vector3(lastRoom.transform.position.x + (lastTiledRoom.MapWidthInPixels * MAP_SCALE) - (1 * MAP_SCALE), 0, 0), Quaternion.identity) as GameObject;
 			else
-				Instantiate (rooms[randIndex]);
-			lastRoom = rooms[randIndex];
+				lastRoom = Instantiate (rooms[randIndex]) as GameObject;
 			lastTiledRoom = tiledRooms[randIndex];
 		}
 	}
