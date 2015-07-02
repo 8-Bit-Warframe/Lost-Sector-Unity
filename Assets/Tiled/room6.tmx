@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" nextobjectid="10">
+ <properties>
+  <property name="unity:resource" value="True"/>
+  <property name="unity:scale" value="0.01"/>
+ </properties>
+ <tileset firstgid="1" source="../../../maps_tmp/corpus tiles.tsx"/>
+ <tileset firstgid="106" source="connectors.tsx"/>
+ <objectgroup name="connectors">
+  <properties>
+   <property name="unity:tag" value="connectors"/>
+  </properties>
+  <object id="3" gid="108" x="240" y="256">
+   <properties>
+    <property name="type" value="0"/>
+   </properties>
+  </object>
+  <object id="9" gid="109" x="64" y="256">
+   <properties>
+    <property name="type" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="main_tiles" width="16" height="16">
+  <properties>
+   <property name="unity:sortingLayerName" value="Foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzNk9EJwEAIQ9Udrl2nozmaozWFQo98KOhPA35p8F3wTCRU5OqUoZb0Ba+fAz+8foCh64c3pv6dH3m4JfPcZ370whIe7lf8FQ/zV/tYf8t/1/N23KhoksFK9tv3L9IMJvwvw8ivVNX98fwN9AkYbA==
+  </data>
+ </layer>
+</map>

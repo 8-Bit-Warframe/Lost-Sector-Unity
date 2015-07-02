@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" nextobjectid="8">
+ <properties>
+  <property name="unity:resource" value="True"/>
+  <property name="unity:scale" value="0.01"/>
+ </properties>
+ <tileset firstgid="1" source="../../../maps_tmp/corpus tiles.tsx"/>
+ <tileset firstgid="106" name="connectors" tilewidth="16" tileheight="16">
+  <image source="connectors.png" width="80" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="connector" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="connector" value="t_0"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="connector" value="r_0"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="connector" value="b_0"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="connector" value="l_0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <objectgroup name="connectors">
+  <properties>
+   <property name="unity:tag" value="connectors"/>
+  </properties>
+  <object id="2" gid="107" x="64" y="16">
+   <properties>
+    <property name="type" value="0"/>
+   </properties>
+  </object>
+  <object id="3" gid="108" x="240" y="256">
+   <properties>
+    <property name="type" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="main_tiles" width="16" height="16">
+  <properties>
+   <property name="unity:sortingLayerName" value="Foreground"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJytktEJwDAIRNUdbNfpaI6W0Wo+CiLRC6QHfp2XPEUhGkz0fCVeVEgWvVo1b8izdje+v2/S+J61C/B283h2dHmkmY/8iDf7mR/xZh/xI57Mj/7LQvtH+nv/UXN2v1HiZgfa/B9uHd1Q6e1ID/N8WC/hKBh0
+  </data>
+ </layer>
+</map>

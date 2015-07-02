@@ -6,6 +6,7 @@ public class GameMaster : MonoBehaviour {
 
 	public static GameMaster gm;
 	private const float MAP_SCALE = 0.01f;
+	private const int NUM_ROOMS = 9;
 
 	public void Start () {
 		if (gm == null) {
@@ -29,11 +30,11 @@ public class GameMaster : MonoBehaviour {
 	}
 
 	private void LoadMap() {
-		UnityEngine.GameObject[] rooms = new UnityEngine.GameObject[5];
-		TiledMap[] tiledRooms = new TiledMap[5];
+		UnityEngine.GameObject[] rooms = new UnityEngine.GameObject[NUM_ROOMS];
+		TiledMap[] tiledRooms = new TiledMap[rooms.Length];
 		//Load in prefabs
 		for (int i = 0; i < rooms.Length; i++) {
-			rooms[i] = Resources.Load ("room0" + (i + 1)) as GameObject;
+			rooms[i] = Resources.Load ("room" + (i + 1)) as GameObject;
 			tiledRooms[i] = rooms[i].GetComponent<TiledMap>();
 		}
 		
