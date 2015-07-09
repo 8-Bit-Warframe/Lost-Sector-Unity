@@ -28,27 +28,41 @@ class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
         IDictionary<string, string> props)
     {
 		// Simply add a component to our GameObject
-        if (props.ContainsKey("connector"))
+		// BETTER STYLE
+        if (props.ContainsKey("side"))
         {
-			string[] strConnector = props["connector"].Split('_');
-			string prefabPath = "Assets/Prefabs/TileConnector.prefab";
-			UnityEngine.Object connector = UnityEditor.AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
-			if (connector != null)
-			{
-				GameObject connectorInstance = (GameObject)GameObject.Instantiate(connector);
-				connectorInstance.name = connector.name;
-				TileConnector tileConnector = connectorInstance.GetComponent("TileConnector") as TileConnector;
-				tileConnector.edge = strConnector[0];
-				tileConnector.type = Convert.ToInt32(strConnector[1]);
-				
-				// Use the position of the game object we're attached to
-				connectorInstance.transform.parent = gameObject.transform;
-				connectorInstance.transform.localPosition = Vector3.zero;
-			}
+			gameObject.name = "TileConnector";
+			TileConnector tileConnector = gameObject.AddComponent<TileConnector>();
+			tileConnector.side = props["side"];
+			
 			if(props.ContainsKey("type")) {
-				
+				tileConnector.type = Convert.ToInt32(props["type"]);
 			}
+
 		}
+
+		
+		// OLD STYLE
+//		if (props.ContainsKey("side"))
+//		{
+//			string prefabPath = "Assets/Prefabs/TileConnector.prefab";
+//			UnityEngine.Object connector = UnityEditor.AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
+//			if (connector != null)
+//			{
+//				GameObject connectorInstance = (GameObject)GameObject.Instantiate(connector);
+//				connectorInstance.name = connector.name;
+//				TileConnector tileConnector = connectorInstance.GetComponent("TileConnector") as TileConnector;
+//				tileConnector.side = props["side"];
+//				
+//				if(props.ContainsKey("type")) {
+//					tileConnector.type = Convert.ToInt32(props["type"]);
+//				}
+//				
+//				// Use the position of the game object we're attached to
+//				connectorInstance.transform.parent = gameObject.transform;
+//				connectorInstance.transform.localPosition = Vector3.zero;
+//			}
+//		}
     }
 
 

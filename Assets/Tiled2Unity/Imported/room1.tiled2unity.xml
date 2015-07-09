@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2015-07-01 16:25:47-->
+<!--Last exported: 2015-07-08 23:34:23-->
 <Tiled2Unity version="0.9.11.1">
   <AssignMaterial mesh="mesh_[00]_[00]" material="corpus tiles" sortingLayerName="Foreground" sortingOrder="0" />
   <Prefab name="room1" numTilesWide="16" numTilesHigh="16" tileWidth="16" tileHeight="16" exportScale="1" mapWidthInPixels="256" mapHeightInPixels="256" scale="0.01" resource="True">
@@ -21,17 +21,17 @@
       </GameObject>
     </GameObject>
     <GameObject name="connectors" tag="connectors">
-      <GameObject name="TileObject" x="240" y="-256" rotation="0">
+      <GameObject name="TileObject" x="64" y="-16" rotation="0">
         <Property name="type" value="0" />
-        <Property name="connector" value="r_0" />
+        <Property name="side" value="t" />
       </GameObject>
       <GameObject name="TileObject" x="0" y="-256" rotation="0">
         <Property name="type" value="0" />
-        <Property name="connector" value="l_0" />
+        <Property name="side" value="l" />
       </GameObject>
-      <GameObject name="TileObject" x="64" y="-16" rotation="0">
+      <GameObject name="TileObject" x="240" y="-256" rotation="0">
         <Property name="type" value="0" />
-        <Property name="connector" value="t_0" />
+        <Property name="side" value="r" />
       </GameObject>
     </GameObject>
   </Prefab>

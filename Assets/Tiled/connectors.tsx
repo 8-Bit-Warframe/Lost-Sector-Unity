@@ -3,27 +3,27 @@
  <image source="connectors.png" width="80" height="16"/>
  <tile id="0">
   <properties>
-   <property name="connector" value=""/>
+   <property name="side" value=""/>
   </properties>
  </tile>
  <tile id="1">
   <properties>
-   <property name="connector" value="t_0"/>
+   <property name="side" value="t"/>
   </properties>
  </tile>
  <tile id="2">
   <properties>
-   <property name="connector" value="r_0"/>
+   <property name="side" value="r"/>
   </properties>
  </tile>
  <tile id="3">
   <properties>
-   <property name="connector" value="b_0"/>
+   <property name="side" value="b"/>
   </properties>
  </tile>
  <tile id="4">
   <properties>
-   <property name="connector" value="l_0"/>
+   <property name="side" value="l"/>
   </properties>
  </tile>
 </tileset>

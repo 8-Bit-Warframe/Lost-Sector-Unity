@@ -1,21 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" nextobjectid="10">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" nextobjectid="12">
  <properties>
   <property name="unity:resource" value="True"/>
   <property name="unity:scale" value="0.01"/>
  </properties>
- <tileset firstgid="1" source="../../../maps_tmp/corpus tiles.tsx"/>
+ <tileset firstgid="1" name="corpus tiles" tilewidth="16" tileheight="16" spacing="1">
+  <image source="../../../../../Users/Benjamin/Dropbox/8b wf/Art/tiles/corpus tiles.png" width="254" height="128"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="20">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="21">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="22">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="l" value="0"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="l" value="1"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="r" value="0"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="r" value="1"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="t" value="0"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="t" value="1"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="b" value="0"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="b" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
  <tileset firstgid="106" source="connectors.tsx"/>
  <objectgroup name="connectors">
   <properties>
    <property name="unity:tag" value="connectors"/>
   </properties>
-  <object id="3" gid="108" x="240" y="256">
+  <object id="10" gid="109" x="64" y="256">
    <properties>
     <property name="type" value="0"/>
    </properties>
   </object>
-  <object id="9" gid="109" x="64" y="256">
+  <object id="11" gid="108" x="240" y="256">
    <properties>
     <property name="type" value="0"/>
    </properties>
