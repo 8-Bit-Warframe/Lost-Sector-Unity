@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2015-07-08 23:35:46-->
+<!--Last exported: 2015-07-12 01:23:46-->
 <Tiled2Unity version="0.9.11.1">
   <AssignMaterial mesh="mesh_[00]_[00]" material="corpus tiles" sortingLayerName="Foreground" sortingOrder="0" />
   <Prefab name="room5" numTilesWide="16" numTilesHigh="16" tileWidth="16" tileHeight="16" exportScale="1" mapWidthInPixels="256" mapHeightInPixels="256" scale="0.01" resource="True">

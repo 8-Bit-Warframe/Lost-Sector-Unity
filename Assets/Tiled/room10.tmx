@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="16" tileheight="16" nextobjectid="9">
+ <tileset firstgid="1" name="corpus_tiles_localization" tilewidth="16" tileheight="16">
+  <image source="corpus_tiles_localization.png" width="544" height="288"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="38">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="40">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="41">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="68">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="69">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="70">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="71">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="102">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="105">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="136">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="139">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="148">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="149">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="182">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="183">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="204">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="205">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="206">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="207">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="222">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="223">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="224">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="238">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="241">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="256">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="257">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="258">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="272">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="275">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="290">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="291">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="292">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="352">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="353">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="354">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="386">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="387">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="388">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="420">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="421">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="422">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="489">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16">
+     <polygon points="0,0 4,-4 5.81818,-7.90909 7.90909,-9.45455 8,-12.0909 12,-16 16,-16 16,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="490">
+   <objectgroup draworder="index">
+    <object id="0" x="4" y="16">
+     <polygon points="0,0 0,-4 0,-8 4,-12 0,-16 -4,-16 -4,0 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="522">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="16">
+     <polygon points="0,0 -8,0 -5.18182,-4.45455 -5,-10.4545 0,-16"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="523">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0">
+     <polygon points="0,0 -16,0 -16,16 0,16 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="524">
+   <objectgroup draworder="index">
+    <object id="0" x="8" y="16">
+     <polygon points="0,0 0,-8 -4,-12 -4,-16 -8,-16 -8,0 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="553">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16">
+     <polygon points="0,0 12,-16 16,-16 16,0 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="554">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="16">
+     <polygon points="0,0 -1,-6.81818 -3.09091,-11 -6.90909,-12.9091 -8,-16 -16,-16 -16,0 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="556">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="16">
+     <polygon points="0,0 4,-4 4,-8 8,-12 8,-16 16,-16 16,0 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="557">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="558">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0">
+     <polygon points="0,0 12,0 12,8 16,16 0,16 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="613" name="connectors" tilewidth="16" tileheight="16">
+  <image source="connectors.png" width="80" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="side" value="c"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="side" value="t"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="side" value="r"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="side" value="b"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="side" value="l"/>
+   </properties>
+  </tile>
+ </tileset>
+ <objectgroup name="connectors">
+  <properties>
+   <property name="unity:tag" value="connectors"/>
+  </properties>
+  <object id="2" gid="617" x="0" y="256">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object id="3" gid="614" x="112" y="16">
+   <properties>
+    <property name="type" value="0"/>
+   </properties>
+  </object>
+  <object id="4" gid="615" x="496" y="256">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="bg" width="32" height="16">
+  <properties>
+   <property name="unity:sortingLayerName" value="bg"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPvuHA1AS47KA1HrV/1P5R+wfefnIBtcwZSPu/MzIw/ADin0D8C4h/MxIn9osBFZNjBkhMkomBQQqIpYFYBohlmYgXg9lNiRnWTJh+GUl4oAEALr1SqQ==
+  </data>
+ </layer>
+ <layer name="default" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxLZGRgSMKBVYEYF1DGo49YnAzEzXjsoDVoHWL23wfiB0D8kEr2M5JoPyjOVQikC3wA5n4YXk7n8Ie5H4bxpb9XQPHXFLpNi4mBQZsJtzyu+OcG6uEBYl48eomxGxS+SxlxuwGX/bpA9XpArE+m/TC7vzFAMC43tELd94ABFS9jRGB0ORhGzgP30fQg243shmWMmOquAvE1IL4OxDeA+CaRYsjh1kqmGTcHsOwZBYMDgLIFMxCrDxAbALTRUoU=
+  </data>
+ </layer>
+ <layer name="fg" width="32" height="16">
+  <properties>
+   <property name="unity:sortingLayerName" value="fg"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwUgDAAgAAAE=
+  </data>
+ </layer>
+</map>

@@ -34,6 +34,7 @@ class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
 			gameObject.name = "TileConnector";
 			TileConnector tileConnector = gameObject.AddComponent<TileConnector>();
 			tileConnector.side = props["side"];
+            tileConnector.connected = false;
 			
 			if(props.ContainsKey("type")) {
 				tileConnector.type = Convert.ToInt32(props["type"]);
