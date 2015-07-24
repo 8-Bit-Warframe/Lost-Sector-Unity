@@ -113,12 +113,9 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="main_tiles" width="16" height="16">
-  <properties>
-   <property name="unity:sortingLayerName" value="Foreground"/>
-  </properties>
+ <layer name="default" width="16" height="16">
   <data encoding="base64" compression="zlib">
-   eJzNk8ENwCAIRb/sYLtOR2M0R+s3PdSQIBF7KAknePokKEArwJVJYVbkg6yeGzxZPeiQ5cm2XX705zxUJv22bv1ZazLxsfXIP/Kx/tF9Nv4w/+rw/e3cUZTJDLq/d7a8/8KdQb9/zfhbvj6OGDPaP9t/A4fkGew=
+   eJzNksENgDAIRYEd0HUcraN1ND/RQ0MCpK0Hm3CCVx4EJrp4I5TWH9h2bvBg2wGHVR5s3+VHf4GPJPU+7/2R65L4+HzlX/l4/6qff3/Yvwa8zY77JE52YP7R3zb7e+PhDqz/nPG3vD6ONEZ1f77+BoGCGWo=
   </data>
  </layer>
 </map>

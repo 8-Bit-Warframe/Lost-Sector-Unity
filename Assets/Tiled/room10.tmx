@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="16" tileheight="16" nextobjectid="9">
+ <properties>
+  <property name="unity:resource" value="True"/>
+  <property name="unity:scale" value="0.01"/>
+ </properties>
  <tileset firstgid="1" name="corpus_tiles_localization" tilewidth="16" tileheight="16">
   <image source="corpus_tiles_localization.png" width="544" height="288"/>
   <tile id="0">
@@ -207,6 +211,16 @@
     <object id="0" x="0" y="0" width="16" height="16"/>
    </objectgroup>
   </tile>
+  <tile id="366">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="370">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
   <tile id="386">
    <objectgroup draworder="index">
     <object id="0" x="0" y="0" width="16" height="16"/>
@@ -222,6 +236,16 @@
     <object id="0" x="0" y="0" width="16" height="16"/>
    </objectgroup>
   </tile>
+  <tile id="400">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="404">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
   <tile id="420">
    <objectgroup draworder="index">
     <object id="0" x="0" y="0" width="16" height="16"/>
@@ -233,6 +257,41 @@
    </objectgroup>
   </tile>
   <tile id="422">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="434">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="438">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="468">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="469">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="470">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="471">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="472">
    <objectgroup draworder="index">
     <object id="0" x="0" y="0" width="16" height="16"/>
    </objectgroup>
@@ -343,7 +402,7 @@
     <property name="type" value="1"/>
    </properties>
   </object>
-  <object id="3" gid="614" x="112" y="16">
+  <object id="3" gid="614" x="64" y="16">
    <properties>
     <property name="type" value="0"/>
    </properties>
@@ -359,12 +418,12 @@
    <property name="unity:sortingLayerName" value="bg"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYMAPvuHA1AS47KA1HrV/1P5R+wfefnIBtcwZSPu/MzIw/ADin0D8C4h/MxIn9osBFZNjBkhMkomBQQqIpYFYBohlmYgXg9lNiRnWTJh+GUl4oAEALr1SqQ==
+   eJxjYBgFo2AUjIJRMBDgOyMDww8g/gnEv4D4NyNxYr8YUDE5ZoDEJJkYGKSAWBqIZYBYlol4MZjdlJhhzYTpl5GEBxoAAOYlYl4=
   </data>
  </layer>
  <layer name="default" width="32" height="16">
   <data encoding="base64" compression="zlib">
-   eJxLZGRgSMKBVYEYF1DGo49YnAzEzXjsoDVoHWL23wfiB0D8kEr2M5JoPyjOVQikC3wA5n4YXk7n8Ie5H4bxpb9XQPHXFLpNi4mBQZsJtzyu+OcG6uEBYl48eomxGxS+SxlxuwGX/bpA9XpArE+m/TC7vzFAMC43tELd94ABFS9jRGB0ORhGzgP30fQg243shmWMmOquAvE1IL4OxDeA+CaRYsjh1kqmGTcHsOwZBYMDgLIFMxCrDxAbALTRUoU=
+   eJxLZGRgSELCqkCMCygD5VSQcBKFOBmIm/HYR2vQOoTsvw/ED4D4IRXtZyTBfljc40sfhADMDzC8nM7hj55+8aW/V0Dx1xS6TYuJgUGbCbc8rvjnBurhAWJePHqJsRsUvksZcbsBl/26QPV6QKxPpv0wu78xQDAuN7RC3feAARUvY0RgdDkYRs4H99H0INuN7IZljJjqrgLxNSC+DsQ3gPgmkWLI4dZKphk3B7DsGQWUA3UopgSAsgUz1JyBYAMAL/5SGQ==
   </data>
  </layer>
  <layer name="fg" width="32" height="16">

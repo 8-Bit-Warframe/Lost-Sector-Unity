@@ -6,13 +6,13 @@ using Tiled2Unity;
 public class LevelLoader
 {
     private const float MAP_SCALE = 0.01f;
-    private const int NUM_ROOMS = 9;
+    private const int NUM_ROOMS = 10;
 
     //Hold all rooms in memory.
     private IDictionary<string, IList<GameObject>> allRooms = null;
     private IList<GameObject> renderedRooms = null;
 
-    private int ROOMS_TO_RENDER = 10;
+    private int ROOMS_TO_RENDER = 100;
 
     public LevelLoader()
     {
@@ -116,6 +116,7 @@ public class LevelLoader
                         tmpTC = getTileConnector(tmpConnObj);
                         if (tmpTC.side == oppositeSide && tmpTC.type == lTC.type)
                         {
+                            //Save the connecting tile connector
                             nConnObj = tmpConnObj;
                             nTC = tmpTC;
                             nTCIdx = i;

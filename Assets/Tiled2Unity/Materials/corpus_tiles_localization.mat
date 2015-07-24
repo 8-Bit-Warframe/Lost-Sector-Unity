@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: corpus tiles
+  m_Name: corpus_tiles_localization
   m_Shader: {fileID: 4800000, guid: 4fa37a82238b5ac4fafff7138fe8c42e, type: 3}
   m_ShaderKeywords: PIXELSNAP_ON
   m_LightmapFlags: 5

@@ -20,50 +20,18 @@ namespace Tiled2Unity
 }
 
 // Examples
-
+/*
 [Tiled2Unity.CustomTiledImporter]
 class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
 {
     public void HandleCustomProperties(UnityEngine.GameObject gameObject,
         IDictionary<string, string> props)
     {
-		// Simply add a component to our GameObject
-		// BETTER STYLE
-        if (props.ContainsKey("side"))
+        // Simply add a component to our GameObject
+        if (props.ContainsKey("AddComp"))
         {
-			gameObject.name = "TileConnector";
-			TileConnector tileConnector = gameObject.AddComponent<TileConnector>();
-			tileConnector.side = props["side"];
-            tileConnector.connected = false;
-			
-			if(props.ContainsKey("type")) {
-				tileConnector.type = Convert.ToInt32(props["type"]);
-			}
-
-		}
-
-		
-		// OLD STYLE
-//		if (props.ContainsKey("side"))
-//		{
-//			string prefabPath = "Assets/Prefabs/TileConnector.prefab";
-//			UnityEngine.Object connector = UnityEditor.AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
-//			if (connector != null)
-//			{
-//				GameObject connectorInstance = (GameObject)GameObject.Instantiate(connector);
-//				connectorInstance.name = connector.name;
-//				TileConnector tileConnector = connectorInstance.GetComponent("TileConnector") as TileConnector;
-//				tileConnector.side = props["side"];
-//				
-//				if(props.ContainsKey("type")) {
-//					tileConnector.type = Convert.ToInt32(props["type"]);
-//				}
-//				
-//				// Use the position of the game object we're attached to
-//				connectorInstance.transform.parent = gameObject.transform;
-//				connectorInstance.transform.localPosition = Vector3.zero;
-//			}
-//		}
+            gameObject.AddComponent(props["AddComp"]);
+        }
     }
 
 
@@ -72,4 +40,4 @@ class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
         // Do nothing
     }
 }
-
+*/
