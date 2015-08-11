@@ -141,7 +141,7 @@ Transform:
   m_GameObject: {fileID: 198640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -.270000011, z: 0}
-  m_LocalScale: {x: .200000003, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 404648}
   m_RootOrder: 0
@@ -179,7 +179,7 @@ Transform:
   m_GameObject: {fileID: 119704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .200000003, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 404648}
   m_RootOrder: 1
@@ -233,22 +233,22 @@ CircleCollider2D:
   m_Material: {fileID: 6200000, guid: d6fe8406eb6aebc439da795e089ec4ef, type: 2}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -.150000006}
+  m_Offset: {x: 0, y: -.125}
   serializedVersion: 2
-  m_Radius: .100000001
+  m_Radius: .125
 --- !u!61 &6173342
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 140256}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Material: {fileID: 6200000, guid: d6fe8406eb6aebc439da795e089ec4ef, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -.129999995}
+  m_Offset: {x: 0, y: -.125}
   serializedVersion: 2
-  m_Size: {x: .200000003, y: .219999999}
+  m_Size: {x: .200000003, y: .200000003}
 --- !u!95 &9568128
 Animator:
   serializedVersion: 3
@@ -429,6 +429,26 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalPosition.y
       value: -.123999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Offset.y
+      value: -.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Size.y
+      value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Radius
+      value: .125
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

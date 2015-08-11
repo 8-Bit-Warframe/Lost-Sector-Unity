@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="16" tileheight="16" nextobjectid="10">
+ <properties>
+  <property name="unity:resource" value="True"/>
+  <property name="unity:scale" value="0.01"/>
+ </properties>
+ <tileset firstgid="1" source="corpus_tiles_localization.tsx"/>
+ <tileset firstgid="613" name="connectors" tilewidth="16" tileheight="16">
+  <image source="connectors.png" width="80" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="side" value="c"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="side" value="t"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="side" value="r"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="side" value="b"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="side" value="l"/>
+   </properties>
+  </tile>
+ </tileset>
+ <objectgroup name="connectors">
+  <properties>
+   <property name="unity:tag" value="connectors"/>
+  </properties>
+  <object id="2" gid="617" x="0" y="256">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+  <object id="3" gid="614" x="368" y="16">
+   <properties>
+    <property name="type" value="0"/>
+   </properties>
+  </object>
+  <object id="4" gid="615" x="496" y="256">
+   <properties>
+    <property name="type" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="bg" width="32" height="16">
+  <properties>
+   <property name="unity:sortingLayerName" value="bg"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMBDgOyMDww8g/gnEv4D4NyNxYr8YUDE5ZoDEJJkYGKSAWBqIZYBYlol4MZjdlJhhzYTpl5GEBxoAAOYlYl4=
+  </data>
+ </layer>
+ <layer name="default" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxLZGRgSCIBqyBhQmpVgRgXUAbKJQNxMx41tAatQ8j++0D8AIgfUtF+RhLsV4bGOb44JQRgfoDh5XQOf2W09Isv/b0Cir+m0G1aTAwM2ky45XHFPzdQDw8Q8+LRS4zdoPBdyojbDbjs1wWq1wNifTLth9n9jQGCcbmhFeq+BwyoeBkjAqPLwTByPriPpgfZbmQ3LGPEVHcViK8B8XUgvgHEN4kUQw63VjLNuDmAZc8ooByoQzElAJQtmKHmDAQbAAU1Uhk=
+  </data>
+ </layer>
+ <layer name="fg" width="32" height="16">
+  <properties>
+   <property name="unity:sortingLayerName" value="fg"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwUgDAAgAAAE=
+  </data>
+ </layer>
+</map>
